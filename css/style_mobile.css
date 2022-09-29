@@ -1,3 +1,28 @@
+@media(max-width: 1100px){
+    .main{
+        height: 1200px;
+    }
+    .content__text__addition{
+        flex-direction: column;
+    }
+    .content__text__addition p{
+        margin: 0 0 20px 0;
+    }
+    .diagonal__box{
+        position:absolute;
+        left: 0;
+        top: -150px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background:#138F5B;
+        box-shadow: inset 0px -25px 75px rgba(0, 0, 0, 0.15);
+        transform: skewY(-10deg);
+        z-index: 0;
+    }
+    .slider{
+        top: 1100px;
+    }
+}
 @media(max-width: 768px){
     .wrapper__top {
         display:flex;
@@ -109,6 +134,8 @@
     .slider {
         display:flex;
         flex-direction: row;
+        top: 600px;
+        left: 15px;
     }
     .slider__circle {
         border-radius:50%;
